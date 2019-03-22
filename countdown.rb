@@ -2,5 +2,8 @@
 
 def countdown(n)
   counter = 0 
-  puts #{n} SECONDS(s)
+  while counter < n
+  puts #{counter} SECONDS(s)
+  conter -= 1
+  end
 end
